@@ -213,6 +213,21 @@ nav li {
     size: cover;
 
 }
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.foot{
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin:0 auto;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
 @media screen and (max-width:600px) {
 
@@ -269,11 +284,6 @@ nav li {
     .square2,
     .square3 {
         width: auto;
-
-    }
-    .newsletter-text {
-      
-        
     }
     .newsletter-img img{
         width: 100%;
